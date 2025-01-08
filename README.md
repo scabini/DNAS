@@ -15,4 +15,4 @@
 ## Dataset
 
 * You can also download the biological dataset used in the paper. It has two versions (RGB and LSM) containing 148 CLSM hyperspectral images from leaves of Jacaranda Caroba specimens under different pollutant levels. The samples of the RGB version are 8-bit `.png` trichromatic color-images, while LSM samples are `.lsm` 16-bit files with all the 32 spectral bands.
-* link TBA
+* https://drive.google.com/drive/folders/16cz58Aa1mNAhXTHlXyGEYp7aR8W9bIGt?usp=sharing
