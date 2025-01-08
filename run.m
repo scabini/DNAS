@@ -1,6 +1,6 @@
-function [data, classes] = run(base, rset, imgsizes)
+function [data, classes] = run(base, rset)
 
-%  imgsizes = 224;
+imgsizes = 224;
 method='DNAS';
 %rset=1:3;
 
@@ -26,9 +26,12 @@ featkind='degree+strength'; measures='all';
 
 % path=['/hd2/Experiments/datasets/', base, '/'];
 % path=['/hd2/Experiments/datasets/', base, '/'];
-path = ['/home/scabini/Experiments/datasets/', base, '/'];
+%path = ['/home/scabini/Experiments/datasets/', base, '/'];
+path = [base];
 
-pathOut=['/home/scabini/Experiments/results/', method, '/', base, '/'];
+
+pathOut=[base, '/', method, '/',];
+%pathOut=['/home/scabini/Experiments/results/', method, '/', base, '/'];
 % pathOut=['E:/Clouds/Experiments/datasets/results/Doutorado/JacarandaPaper/',   method, '/', base, '/'];
 % pathOut=['/hd2/Experiments/results/Hyperspectral/', method, '/', base, '/'];
 
