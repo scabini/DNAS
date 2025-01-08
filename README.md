@@ -11,3 +11,8 @@
 ```
 
 * It extract features, train classifiers and show classification results. If you want to use the DNAS features with other classifiers or applications, the script also returns `data`, a matrix with DNAS features for each image, and `classes`, a vector with the ground-truth class of each image (row of the matrix `data`).
+
+## Dataset
+
+* You can also download the biological dataset used in the paper. It contains 148 CLSM hyperspectral images from leaves of Jacaranda Caroba specimens under different pollutant levels.
+* link TBA
